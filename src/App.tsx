@@ -17,7 +17,9 @@ function App() {
   return (
     <Container>
       {images.map((image, index) => {
-        return <Image src={image} alt={`image_${index}`} />;
+        return (
+          <Image src={image} alt={`image_${index}`} key={`image_${index}`} />
+        );
       })}
     </Container>
   );
