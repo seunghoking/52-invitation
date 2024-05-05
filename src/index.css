@@ -1,13 +1,86 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/Fonts/Pretendard-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/Fonts/Pretendard-Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/Fonts/Pretendard-SemiBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/Fonts/Pretendard-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MaruBuri-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/Fonts/MaruBuri-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MaruBuri-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/Fonts/MaruBuri-SemiBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MaruBuri-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/Fonts/MaruBuri-Regular.otf") format("truetype");
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :root {
+    font-size: 16px;
+  }
 }
