@@ -1,18 +1,17 @@
 import styled from "styled-components";
 import "./App.css";
-import { useMediaQuery } from "react-responsive";
 import { first, fourth, second, third } from "./assets/images";
 
 function App() {
   const images = [first, second, third, fourth];
 
-  const isMobile = useMediaQuery({
-    query: "(max-width:767px)",
-  });
+  // const isMobile = useMediaQuery({
+  //   query: "(max-width:767px)",
+  // });
 
-  if (!isMobile) {
-    return null;
-  }
+  // if (!isMobile) {
+  //   return null;
+  // }
 
   return (
     <Container>
